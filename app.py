@@ -215,7 +215,7 @@ class Application:
                     for i in ascii_uppercase:
                         self.ct[i] = 0
                     return
-            self.ct['blank'] = 0
+            self.ct['blank'] = 1
             for i in ascii_uppercase:
                 self.ct[i] = 0
             if self.current_symbol == 'blank':
